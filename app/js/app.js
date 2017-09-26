@@ -1,6 +1,5 @@
 var consulta = window.matchMedia('(max-width:900px)');
 consulta.addListener(mediaQuery);
-
 function mediaQuery() {
         $('.seccion-menu').hide();
         if (consulta.matches) {
