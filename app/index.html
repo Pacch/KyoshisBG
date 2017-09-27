@@ -20,13 +20,13 @@
       <nav class="nav-menu" id="menu">
         <ul class="seccion-menu">
           <li><a href="#">conectarse</a></li>
-          <li> <a href="#">inicio</a></li>
-          <li> <a class="ancla" href="#promociones">nuestra carta</a></li>
-          <li> <a href="#">contacto</a></li>
+          <li> <a href="#inicio">inicio</a></li>
+          <li> <a href="#promociones">nuestra carta</a></li>
+          <li> <a href="#contacto">contacto</a></li>
         </ul>
       </nav><span><i class="burguer fa fa-bars" aria-hidden="true"></i></span>
     </header>
-    <div class="container-portada">
+    <div class="container-portada" id="inicio">
       <div class="header-portada"></div>
       <div class="imagen-frase">
         <div class="container-texto">
@@ -39,7 +39,7 @@
     <div class="promociones">
       <div class="conteiner-promociones">
         <div class="titulo">
-          <div class="texto"><a class="ancla" name="promociones"> 
+          <div class="texto"><a id="promociones">
               <h3>PROMOCIONES</h3></a></div>
         </div>
         <div class="subrayado">
@@ -56,9 +56,41 @@
       <div class="barra-1"><span>Invitar sushi a alguien es decir que lo amas</span></div>
       <div class="barra-2"></div>
     </div>
-    <footer class="footer">
-      <div class="telefono-footer"><span><i class="fa fa-phone" aria-hidden="true"> 920 093 400 </i></span></div>
-      <div class="texto-footer"> <span>© Copyright 2008-2017 Kyoshi Sushi Bar & Grill | Derechos Reservados - Lima - Perú</span></div>
+    <footer class="footer" id="contacto">
+      <section class="section">
+        <div class="section-footer">
+          <div class="logo-footer"><img src="imagenes/logo-separado-2.png"><img src="imagenes/kioshi-footer-2.png"></div>
+          <div class="container-texto">
+            <p>El propósito de Kyoshi Sushi Bar & Grill está orientado a cumplir con sus expectativas en cualquier momento, brindando en nuestro servicio de DELIVERY la mejor calidad y frescura de los productos y una minuciosa presentación que lo agasajará a usted y/o a sus invitados.</p>
+            <p></p>
+          </div>
+          <div class="conteiner-telefono">
+            <ul>
+              <li>   <a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i><span>UBICANOS</span></a></li>
+              <li><a href="#"> <i class="fa fa-phone" aria-hidden="true"></i><span>920 093 400 </span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-footer">
+          <h3>contactanos</h3><span>escribe aqui todas sus consultas</span>
+          <form>
+            <imput type="text"></imput>
+            <input type="text">
+            <input type="text">
+            <imput type="textarea"></imput>
+          </form>
+        </div>
+      </section>
+      <div class="container-copyrigth">
+        <div class="footer-copyrigth"><span>© Kyoshi Sushi Bar & Grill - TODOS LOS DERECHOS RESERVADOS 2017</span>
+          <container-sociales>
+            <ul class="seccion-sociales">
+              <li><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+          </container-sociales>
+        </div>
+      </div>
     </footer>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>

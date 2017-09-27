@@ -1,26 +1,17 @@
 @charset "UTF-8";
 
+//vendor
+@import "vendor/_normalize",
+        "vendor/_icomoon";
+
+//base
+@import "base/_presets";
+
 //layout
 @import "layout/_header",
-        "layout/portada",
-        "layout/_promociones.scss",
+        "layout/_portada",
+        "layout/_promociones",
         "layout/_footer";
 
-*{
-    box-sizing: border-box;
-    font-family: 'Crimson Text', serif;
-    margin: 0;
-}
-html{
-    background:#ECECEC;
-}
 
-li{
-    list-style: none;
-}
-
-a{
-    color: black;
-    text-decoration: none;
-}
 

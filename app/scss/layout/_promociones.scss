@@ -1,18 +1,26 @@
 .promociones{
     width: 100%;
     .conteiner-promociones{
-        height:calc(100vh - 198px);
         background:#ECECEC;
-        width: 1140px;
+        max-width: 1140px;
+        padding: 0 15px 115px 15px;
         margin:0 auto;
+            @media (max-width: 1200px) {
+            max-width:970px;
+            }
+            @media (max-width: 998px) {
+            max-width:720px;
+            height: inherit;
+            }
+
         .titulo{
-            height: 150px;
+            padding-top: 102px;
             width:100%;
             display: flex;
             justify-content:flex-start;
             align-items:flex-end;
             .texto{
-            margin: 0 auto;
+            margin: 0 0 15px 0;
             flex:1;
                 h3{
                     font-family:'Montserrat', sans-serif;
@@ -22,36 +30,45 @@
                     font-size: 22px;
                     text-transform: uppercase;  
                 }
-            }
-            
+            }  
         }
         .subrayado{
-            margin: 0 auto;
-            height:4px;
-            width:100%;
                 .texto{
-                    padding-top:10px;
+                    margin-bottom: 25px;
                     margin: 0;
                     width:30px;
                     h3{
                         border-bottom:3px solid black;                  
                     }  
-                }
-                    
-            }
+                } 
+        }
         .section{
-            height:calc(100vh - 247px);
-            width:100%;
             display:flex;
             justify-content:space-between;
             padding-top: 80px;
             margin: 0 auto;
+                @media (max-width: 998px) {
+                    flex-wrap: wrap;
+                    height:inherit;
+                }
+                @media (max-width: 610px) {
+                    justify-content: center;
+                }
             .section-1{
-                width: 260px;
-                height: 365px;
+                margin-top:41px ;
+                width:262px;
+                height:366px;
+                 @media (max-width: 1200px) {
+                    width: 212px;
+                    height: 296px;
+                }
+                @media (max-width: 998px) {
+                    width: 282px;
+                    height: 393px;
+                }
                 img{
-                   width: 260px;
-                   height: 365px; 
+                    height: 100%;
+                    width: 100%;
                 }
             }
         }
@@ -81,13 +98,10 @@
     }
 }
 
-@media screen and (max-width: 1200px){
-    .texto, .subrayado, .section{
-        max-width: 970px;
-    }
-
-    .section-1{
-        height: 296px;
-        width:221.5px;
-    }
-}
+// @media screen and (max-width: 998px){
+//     .promociones{
+//         .conteiner-promociones{ 
+//             flex-wrap: wrap;
+//         }
+//     }
+// }
