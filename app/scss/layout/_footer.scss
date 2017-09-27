@@ -10,10 +10,9 @@
         padding: 127px 15px 0 15px;
         margin:0 auto;
         display: flex;
-        .section-footer{
+        .section-footer-1{
             height: 615px;
             width: inherit;
-            border: 1px solid white;
             .logo-footer{
                 height: 60px;
                 margin-bottom: 40px;
@@ -33,9 +32,16 @@
                     font-size: 15px;
                     font-family: 'Crimson Text', serif;
                 }
+                h3.subrayado{
+                padding-top: 15px;
+                margin-bottom: 40px;
+                border-bottom: 4px solid white;
+                width: 30px;
+                }
             }
             .conteiner-telefono{
                 padding-right: 20px;
+                width: 158px;
                 ul{
                     padding: 0;
                     li{
@@ -70,6 +76,64 @@
                 }
             }
         }
+        .section-footer-2{
+            height: 615px;
+            width: inherit;
+            .footer-formulario{
+                padding-left: 112px;
+                h3{
+                    font-family: 'Montserrat', sans-serif;
+                    color: #fff;
+                    margin-top: 0;
+                    letter-spacing: 4px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                }
+                h3.subrayado{
+                    padding-top: 15px;
+                    border-bottom: 4px solid white;
+                    width: 30px;
+                    margin-bottom: 40px;
+                }
+                span{
+                    font-size: 18px;
+                    font-style: italic;
+                    line-height: 24px;
+                    color: #696969;
+                }
+                form{
+                    padding-top: 70px;
+                    p{
+                        input{
+                            width: 457px;
+                            height: 46px;
+                            line-height: 44px;
+                            border: 1px solid #222;
+                            background-color: transparent;
+                            font-size: 12px;
+                            color: #585858;
+                            font-style: italic;
+                            padding: 0 18px;
+                            margin: 7.5px 0;
+                        }
+                        textarea{
+                            width: 457px;
+                            height: 194px;
+                            line-height: 44px;
+                            border: 1px solid #222;
+                            background-color: transparent;
+                            font-size: 12px;
+                            color: #585858;
+                            font-style: italic;
+                            padding: 0 18px;
+                            margin: 7.5px 0; 
+                        }
+                    }
+                }
+            }
+        }
     }
     .container-copyrigth{
         padding: 0 15px;
@@ -79,8 +143,37 @@
         .footer-copyrigth{
             display: flex;
             align-items: center;
-            border: 1px white solid;
             height: inherit;
-        }
+            span{
+                flex: 1;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #696969;
+                font-size: 9px;
+                line-height: 24px;
+                font-family: 'Montserrat', sans-serif;
+                }
+            }
+            .footer-sociales{
+                    .seccion-sociales{
+                        display: flex;
+                        li{
+                            i{
+                                color: #696969;
+                                &:hover{
+                                color:#fff;
+                                }
+                            }
+                            
+                        }
+                        li:first-child{
+                        padding-right: 15px;
+                        margin-right: 15px;
+                        border-right: 2px solid #696969;
+                        }
+
+                    }
+                    
+            }
     }
 }
