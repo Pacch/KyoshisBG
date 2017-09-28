@@ -59,3 +59,7 @@ ordenador de serie/
 |- .gitignore (obviamos los modulos de node)
 |- gulpfile.js (listo para compilar el proyecto)
 |- package.json
+
+La web se hizo como hobby y proyecto personal , no soy el autor del diseño. 
+creditos a [Enlace de MRSUSHIPERU](http://www.mrsushiperu.com/.)
+Sin fines de lucro , solo por aficion.
