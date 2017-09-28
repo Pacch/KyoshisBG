@@ -10,7 +10,7 @@
         padding: 127px 15px 0 15px;
         margin:0 auto;
         display: flex;
-        @media (max-width: 1199px) {
+        @media screen and (max-width: 1199px) {
             max-width: 970px;
         }
         .section-footer-1{
@@ -27,11 +27,11 @@
             .container-texto{
                     width: 457px;
                     margin: 0 auto;
-                @media (max-width: 1199px) {
+                @media screen and (max-width: 1199px) {
                     width: 374px;
                     margin: 0 auto;
                 }
-                @media (max-width: 998px){
+                @media screen and (max-width: 998px){
                     width: 282px;
                     margin: 0 auto;
                 }
