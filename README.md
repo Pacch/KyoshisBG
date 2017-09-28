@@ -26,6 +26,10 @@ No se usaron librerias externas a excepción de:
 * Librerias para compilar con gulp
 * Jquery
 
+La web se hizo como hobby y proyecto personal , no soy el autor del diseño. 
+[Enlace a la pagina oficial del diseño.](http://www.mrsushiperu.com/)
+Sin fines de lucro , solo por aficion.
+
 Estructura de carpetas
 ----------------------
 
@@ -59,7 +63,3 @@ ordenador de serie/
 |- .gitignore (obviamos los modulos de node)
 |- gulpfile.js (listo para compilar el proyecto)
 |- package.json
-
-La web se hizo como hobby y proyecto personal , no soy el autor del diseño. 
-[Enlace a la pagina oficial del diseño.](http://www.mrsushiperu.com/)
-Sin fines de lucro , solo por aficion.
