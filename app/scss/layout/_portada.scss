@@ -32,9 +32,14 @@
                 font-weight:400;
                 text-transform: uppercase;
                 line-height:1.1;
+                @media (max-width: 1199px) {
+                    font-size: 36px;
+                }
+                @media (max-width: 991px) {
+                    font-size:24px;
+                }
             }  
         }
-
         .imagen-deslizada{
             position: absolute;
             z-index:1;
