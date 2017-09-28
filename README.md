@@ -61,5 +61,5 @@ ordenador de serie/
 |- package.json
 
 La web se hizo como hobby y proyecto personal , no soy el autor del diseño. 
-creditos a [Enlace de MRSUSHIPERU](http://www.mrsushiperu.com/.)
+[Enlace a la pagina oficial del diseño.](http://www.mrsushiperu.com/)
 Sin fines de lucro , solo por aficion.
