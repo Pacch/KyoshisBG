@@ -53,6 +53,11 @@ div.promociones#promociones
     .barra-1
         span Invitar sushi a alguien es decir que lo amas
     .barra-2
+        form.promociones-formulario(method='get', name="promociones-formulario", action="/index.html")
+            label(for='email') Ingresa tu correo electronico para enviarte ofertas :
+            input.text(type='email', placeholder='Email', name='Email', required='',autocomplete="off")
+            input.submit(type='submit', value='Enviar')
+
 footer.footer#contacto
     section.section
         .section-footer-1
@@ -78,15 +83,17 @@ footer.footer#contacto
                 h3 CONTÁCTANOS
                 h3.subrayado
                 span Escribe aqui todas sus consultas
-                form
+                form.contacto-formulario(method='get', name="contacto-formulario", action="/index.html")
                     p
-                        input(type='text', placeholder='Nombre', name='name')
+                        input(type='text', placeholder='Nombre', name='Nombre', required='',autocomplete="off")
                     p
-                        input(type='text', placeholder='Email', name='Email')
+                        input(type='email', placeholder='Email', name='Email', required='',autocomplete="off")
                     p
-                        input(type='text', placeholder='Asunto', name='Asunto')
+                        input(type='text', placeholder='Asunto', name='Asunto', required='',autocomplete="off")
                     p   
-                        textarea(placeholder='Mensaje', name='message')
+                        textarea(placeholder='Mensaje', name='Mensaje', required='',autocomplete="off")
+                    p
+                        input.submit(type='submit', value='Enviar Mensaje')
     .container-copyrigth
         .footer-copyrigth
             span © Kyoshi Sushi Bar & Grill - TODOS LOS DERECHOS RESERVADOS 2017

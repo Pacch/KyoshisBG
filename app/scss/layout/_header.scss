@@ -46,6 +46,9 @@
                     text-transform: uppercase;
                     line-height: 25px;
                     letter-spacing: 2px;
+                    &:hover{
+                        color: #8b8b8b;
+                    }
                 }
             }
         }
