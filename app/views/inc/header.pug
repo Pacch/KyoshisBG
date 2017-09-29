@@ -1,9 +1,9 @@
 header.header
     .container-logo
         a(href="#")
-            img(src='imagenes/logo-separado.png')
+            img(src='imagenes/logo-separado.png',alt='kioshi')
         a(href="#")            
-            img(src='imagenes/kioshi.png')
+            img(src='imagenes/kioshi.png',alt="kioshi")
     .container-sociales
         ul.seccion-sociales
             li
@@ -45,16 +45,16 @@ div.promociones#promociones
                 h3
         section.section
             .section-1
-                img(src="imagenes/section3.jpg")
+                img(src="imagenes/section3.jpg",alt="kioshi jueves")
             .section-1
-                img(src="imagenes/section4.jpg")
+                img(src="imagenes/section4.jpg",alt="kioshi viernes")
             .section-1
-                img(src="imagenes/section5.jpg")
+                img(src="imagenes/section5.jpg" alt="kioshi sabado")
     .barra-1
         span Invitar sushi a alguien es decir que lo amas
     .barra-2
         form.promociones-formulario(method='get', name="promociones-formulario", action="/index.html")
-            label(for='email') Ingresa tu correo electronico para enviarte ofertas :
+            label Ingresa tu correo electronico para enviarte ofertas :
             input.text(type='email', placeholder='Email', name='Email', required='',autocomplete="off")
             input.submit(type='submit', value='Enviar')
 
@@ -62,11 +62,11 @@ footer.footer#contacto
     section.section
         .section-footer-1
             .logo-footer
-                img(src='imagenes/logo-separado-2.png')
-                img(src='imagenes/kioshi-footer-2.png')
+                img(src='imagenes/logo-separado-2.png',alt="kioshi logo")
+                img(src='imagenes/kioshi-footer-2.png' alt="kioshi logo")
             .container-texto
                 p El propósito de Kyoshi Sushi Bar & Grill está orientado a cumplir con sus expectativas en cualquier momento, brindando en nuestro servicio de DELIVERY la mejor calidad y frescura de los productos y una minuciosa presentación que lo agasajará a usted y/o a sus invitados.
-                h3.subrayado
+                .subrayado
             .conteiner-telefono
                 ul
                     li    
@@ -81,7 +81,7 @@ footer.footer#contacto
         .section-footer-2
             .footer-formulario
                 h3 CONTÁCTANOS
-                h3.subrayado
+                .subrayado
                 span Escribe aqui todas sus consultas
                 form.contacto-formulario(method='get', name="contacto-formulario", action="/index.html")
                     p
