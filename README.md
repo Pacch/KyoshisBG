@@ -63,7 +63,11 @@ ordenador de serie/
 |- .gitignore (obviamos los modulos de node)
 |- gulpfile.js (listo para compilar el proyecto)
 <<<<<<< HEAD
+<<<<<<< HEAD
 |- package.json
+=======
+|- package.json
+>>>>>>> 2aa7d4a2dd9c984632d81d4357b37d6a68c91d90
 =======
 |- package.json
 >>>>>>> 2aa7d4a2dd9c984632d81d4357b37d6a68c91d90
